@@ -1,0 +1,28 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+header h1 {
+  font-family: 'Georgia', serif;
+}
+
+.main {
+  text-align: center;
+}
+
+/* Oculta todas as receitas */
+.item {
+  display: none;
+}
+
+/* Mostra apenas a receita ativa */
+.item.active {
+  display: block;
+}
+
+img {
+  max-height: 300px;
+  object-fit: cover;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
